@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:background="@drawable/starwars"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dunde.lapplicationdelamortquitue.MainActivity">
+
+    <Button
+        android:text="Jouer"
+        android:layout_width="wrap_content"
+        android:id="@+id/BUTTON"
+        android:layout_marginTop="61dp"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:onClick="JouerOnclick"
+        android:elevation="0dp"
+        android:layout_height="wrap_content"
+        tools:layout_height="75dp"
+        tools:layout_width="300dp"
+        android:autoText="false"
+        android:textSize="33dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@android:drawable/ic_delete"
+        android:id="@+id/imageView8"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/Quitter"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="QuitterOnclick" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_help"
+        android:id="@+id/Aide"
+        style="@android:style/Widget.DeviceDefault.ImageButton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="AideOnClick" />
+
+    <Button
+        android:text="NE CLIQUE SURTOUT PAS"
+        android:layout_width="154dp"
+        android:layout_height="60dp"
+        android:id="@+id/Troll"
+        android:textSize="18sp"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:onClick="TrollOnClick"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp" />
+
+</RelativeLayout>
+

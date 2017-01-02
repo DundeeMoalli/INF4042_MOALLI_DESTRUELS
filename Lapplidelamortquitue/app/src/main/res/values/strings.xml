@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ApplideMOALLIetDESTRUELS</string>
+    <string name="title_activity_game_view">GameView</string>
+    <string name="title_activity_game">Game</string>
+</resources>
